@@ -70,6 +70,10 @@ To install phpunit:
 
 php composer.phar install
 
+or (without composer) :
+
+wget https://phar.phpunit.de/phpunit.phar
+
 ## Usage
 
 To run the scraper:
