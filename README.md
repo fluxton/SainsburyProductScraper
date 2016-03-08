@@ -1,4 +1,4 @@
-# Sainsbury’s Software Engineering Test
+## Sainsbury’s Software Engineering Test
 This task is intended to test your ability to consume a webpage, process some data
 and present it.
 
@@ -9,7 +9,7 @@ We are looking for concise, testable, clean, well commented code and that you ha
 chosen the right tools for the right job. We will also be looking at your app structure
 as a whole.
 
-# Requirements
+## Requirements
 
 Using best practice coding methods, build a console application that scrapes the
 Sainsbury’s grocery site - Ripe Fruits page and returns a JSON array of all the
@@ -57,3 +57,27 @@ Your code should:
 * You may use a dependency management system (e.g. composer, pip) and as many dependencies as you like.
 
 * Please provide a link to a public VCS (github, etc)
+
+## Prerequisites
+
+PHP >= 5.5.9
+
+Composer
+
+## Installation
+
+To install phpunit:
+
+php composer.phar install
+
+## Usage
+
+To run the scraper:
+
+php src/main.php
+
+## Tests
+
+To run the test:
+
+phpunit tests/ScraperTest.php
